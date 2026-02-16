@@ -64,7 +64,7 @@ export default function HackathonDashboard() {
         try {
             setLoading(true);
             const response = await fetch(
-                "https://backend-chi-nine-74.vercel.app/api/tweets"
+                "https://localhost:3001/api/tweets"
             );
             const data = await response.json();
 
